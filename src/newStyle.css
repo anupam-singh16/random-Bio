@@ -1,0 +1,266 @@
+.Container{
+    /* background-color: red; */
+    /* display: flex; */
+    /* height: 150%; */
+    /* justify-content: space-evenly; */
+   
+}
+.sub-container{
+    display: grid;
+    /* justify-content: center; */
+    place-items: center;
+    /* width: 100%; */
+    /* background-color:red ; */
+
+}
+.heading{
+     background-color:rgb(178, 176, 176);
+     width:100%;
+     /* height: 85%; */
+     /* position: fixed;
+     top:0; */
+     text-align: center;
+}
+.left-con-heading{
+  background-color:rgb(178, 176, 176);
+  text-align: center;
+  /* width: 100%; */
+  /* padding:1% 5%; */
+  /* height:30px; */
+
+}
+.left-content{
+    /* background-color: red; */
+    /* width:200%; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    text-align: center;
+    line-height: 55px;
+    /* justify-content: space-evenly; */
+    /* margin: auto; */
+}
+.name-gender{
+    background-color:rgb(178, 176, 176);
+    /* width: 80%; */
+    display: flex;
+    justify-content:space-around;
+    height:55px;
+    text-align: center;
+    margin:2% 0%;
+    /* align-content: space-around */
+    /* margin-top:15px; */
+}
+.location{
+    background-color:rgb(178, 176, 176);
+    /* margin:3% 0%; */
+    /* width: 80%; */
+    display: flex;
+    /* left: 1%; */
+justify-content:left;
+
+}
+.location-con{
+    margin-left:6%;
+    /* width: 100%; */
+    grid-row:2vh;
+    /* display: flex; */
+    /* padding:0% 5%; */
+    /* justify-content: space-evenly; */
+}
+.school{
+    background-color:rgb(178, 176, 176);
+    margin:2% 0%;
+    padding-right:5%;
+    display: flex;
+    justify-content: space-evenly;
+ /* margin-left: 6%;    */
+}
+.school-con{
+
+}
+.occupation{
+    background-color: rgb(178, 176, 176);
+    /* padding-left: 1px; */
+    padding-right:32%;
+}
+.religious-background{
+    background-color:rgb(178, 176, 176);
+    margin-top: 2%;
+    /* display:flex; */
+    /* flex-direction:column; */
+    justify-content: left;
+    /* height:200px;
+     */
+     /* height:200px; */
+}
+.religious-background1{
+    background-color:rgb(178, 176, 176);
+    margin-top: 2%;
+    /* display: ; */
+    height:auto;
+    
+     /* height:200px; */
+}
+.results{
+    width: 40%;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+}
+.result-text{
+    height: 55px;
+    margin-top:3.5%;
+    background-color:rgb(178, 176, 176);
+    text-align: center;
+}
+.res-text{
+   /* padding-top:-25px; */
+
+   margin:auto;
+}
+.results-Data{
+    background-color:rgb(178, 176, 176);
+    margin:3.7% 0% ;
+    /* width: 100%; */
+    word-wrap: break-word;
+    text-align: left;
+    padding-left: 3%;
+}
+.reg-text{
+    /* padding-bottom:10%; */
+    /* height:80px; */
+    width:96%;
+}
+/* .reg-text{
+    align-self: left;
+} */
+.reg-con{
+    height: 80px;
+    /* background-color: red; */
+}
+.content-con{
+    /* background-color: red; */
+    display: flex;
+    justify-content:space-around;
+}
+
+.color-text{
+    /* height:50%; */
+    /* border-collapse: collapse; */
+    /* border-spacing: 50px; */
+    /* display:flex; */
+    /* width: 0%; */
+   margin-left: 2%;
+   margin:2% 2%;
+    /* gap: 10px; */
+    line-height:30px;
+    text-align: left;
+    /* background-color: red; */
+    /* display: grid; */
+    /* justify-content:left; */
+    /* place-items: inherit; */
+    /* grid-template-columns: auto auto auto auto; */
+    /* grid-gap:1%; */
+    /* grid-row-gap: 19px; */
+    font-weight: 600;
+    
+    /* width: 70%; */
+    /* word-break: break-all; */
+}
+.item1{
+    /* grid-column:0/ span5; */
+    /* letter-spacing: 2px; */
+    border: 1px solid purple;
+    /* height: 100%; */
+    background-color: #e7c2e7;
+    /* height: 50%; */
+    /* font-size: 15px; */
+    width: fit-content;
+    /* border-radius: 11px; */
+    text-align: center;
+}
+.item2{
+    width: fit-content;
+    /* height: 160%; */
+
+    border: 1px solid rgb(255, 226, 35);
+    background-color: #f6f19a;
+    /* height: 73%; */
+    text-align: center;
+}.item3{
+    width: fit-content;
+    /* height:100%; */
+
+    border: 1px solid rgb(247, 10, 46);
+    background-color: #fca5ae;
+    /* height: 73%; */
+    text-align: center;
+}.item4{
+    width: fit-content;
+    /* height: 100%; */
+
+    border: 1px solid rgb(200, 240, 159);
+    background-color: #52f439;
+    /* height: 73%; */
+    text-align: center;
+}.item5{
+    width: fit-content;
+    /* height: 160%; */
+
+    border: 1px solid rgb(119, 109, 252);
+    background-color: #a2a2ea;
+    /* height: 73%; */
+    text-align: center;
+}
+.item6{
+    border: 1px solid rgb(247, 136, 247);
+    width: fit-content;
+    /* height: 160%; */
+
+    background-color: #ff04ff;
+    /* height: 73%; */
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+
+    .content-con{
+        /* background-color: #ff0000; */
+        display: flex;
+        /* width: fit-content; */
+        /* justify-content: space-evenly; */
+        flex-direction: column;
+    }
+
+    .results{
+        width: 100%;
+        /* background-color: #52f439; */
+        /* display: flex;
+        flex-direction: column; */
+    }
+    .heading{
+        position:sticky;
+        top: 0px;
+        width: 100%;
+    }
+
+}
+/* @media only screen and (min-width: 768px) {
+    .content-con{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .results{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .content-con{
+    }
+
+    .results{
+    }
+
+} */
